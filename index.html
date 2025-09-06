@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inicio — Revista Cultural Vórtice</title>
+<meta name="description" content="Explora crónicas, arte, música y pensamiento latino desde el ojo del vórtice.">
+<link rel="icon" href="/assets/img/logo-vortice.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Inicio — Revista Cultural Vórtice">
+<meta property="og:description" content="Explora crónicas, arte, música y pensamiento latino desde el ojo del vórtice.">
+<meta property="og:image" content="https://example.com/assets/img/og-vortice.png">
+<meta property="og:locale" content="es_CL">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/rss+xml" title="RSS — Vórtice" href="/rss.xml">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+<link rel="preload" href="/assets/css/styles.css" as="style">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script defer src="/assets/js/app.js"></script>
+
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="/">
+    <img src="/assets/img/logo-vortice.svg" alt="Vórtice" width="132" height="32">
+  </a>
+  <nav id="nav" class="nav" aria-label="Principal">
+    <button class="nav__toggle" aria-controls="nav__list" aria-expanded="false">☰</button>
+    <ul id="nav__list" class="nav__list">
+      <li><a href="/ediciones/">Ediciones</a></li>
+      <li><a href="/acerca.html">Acerca</a></li>
+      <li><a href="/contacto.html">Contacto</a></li>
+      <li><button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">🌓</button></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Revista Cultural <span class="accent">Vórtice</span></h1>
+    <p class="lead">Crónicas, arte y pensamiento que te arrastran al centro de la conversación.</p>
+    <div class="hero__cta">
+      <a class="btn btn--primary" href="/ediciones/">Ver ediciones</a>
+      <a class="btn btn--ghost" href="mailto:editor@vortice.cl?subject=Suscripción Vórtice">Suscríbete</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Artículos destacados</h2>
+    <div class="cards">
+      <article class="card">
+        <a class="card__media" href="/articulos/tu-primer-articulo.html">
+          <img src="/assets/img/placeholder-1200x630.svg" alt="Portada del artículo">
+        </a>
+        <div class="card__body">
+          <h3><a href="/articulos/tu-primer-articulo.html">La ciudad como partitura</a></h3>
+          <p>Una deriva sonora por el centro de Santiago.</p>
+          <p class="meta">Por Equipo Vórtice · 5 min</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <a class="card__media" href="/ediciones/v001/index.html">
+          <img src="/assets/img/placeholder-1200x630.svg" alt="Edición V001">
+        </a>
+        <div class="card__body">
+          <h3><a href="/ediciones/v001/index.html">Edición V001 — Umbrales</a></h3>
+          <p>Una edición inaugural para cruzar de orilla.</p>
+          <p class="meta">Sep 2025</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <a class="card__media" href="/acerca.html">
+          <img src="/assets/img/placeholder-1200x630.svg" alt="Sobre Vórtice">
+        </a>
+        <div class="card__body">
+          <h3><a href="/acerca.html">¿Qué es Vórtice?</a></h3>
+          <p>Nuestra misión editorial y cómo colaborar.</p>
+          <p class="meta">Lee la nota</p>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer__grid">
+    <div>
+      <p><strong>Vórtice</strong> — Revista Cultural independiente.</p>
+      <p>© <span id="year"></span> Vórtice. Todos los derechos reservados.</p>
+    </div>
+    <div>
+      <p><a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/robots.txt">Robots</a></p>
+      <p>Hecho con ❤️ y GitHub Pages.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

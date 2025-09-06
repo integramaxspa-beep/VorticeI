@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Vórtice — Revista Cultural</title>
+    <link>/</link>
+    <description>Crónicas, arte y pensamiento latino.</description>
+    <language>es-cl</language>
+    <item>
+      <title>La ciudad como partitura</title>
+      <link>/articulos/tu-primer-articulo.html</link>
+      <guid>/articulos/tu-primer-articulo.html</guid>
+      <description>Una deriva sonora por el centro de Santiago.</description>
+      <pubDate>Fri, 05 Sep 2025 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
